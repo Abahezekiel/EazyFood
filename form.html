@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="query.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="image/Screen Shot 2024-09-12 at 3.49.23 PM.png" alt="" />
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Our Food</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="form.html" class="order">Order Now</a></li>
+          <li><a href="#">Location</a></li>
+        </ul>
+
+       
+      </nav>
+      <div class="show flex">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="form.html" class="order">Order Now</a></li>
+      </div>
+    </header>
+
+    <form id="foodlist " class="form-container">
+      <h2 id="header"></h2>
+
+      <h2 id="first"></h2>
+      <div class="form-group">
+        <input type="text" id="name" name="name" placeholder="Name" /> <br />
+        <input type="text" id="address" name="address" placeholder="Address" />
+      </div>
+      <br />
+      <div class="form-group">
+        <p id="chop">Food</p>
+
+        <input
+          type="text"
+          id="food1"
+          name="food1"
+          placeholder="what food do you want"
+        />
+      </div>
+
+      <div class="form-group">
+        <h2 id="second"></h2>
+        <p id="chop">Protein</p>
+        <input
+          type="text"
+          id="food2"
+          name="food2"
+          placeholder="what protein do you want"
+        />
+      </div>
+
+      <div class="form-group">
+        <h2 id="third"></h2>
+        <p id="chop">Drinks</p>
+        <input
+          type="text"
+          id="food3"
+          name="food3"
+          placeholder="what drink do you want"
+        />
+        <br />
+        <br />
+        <button type="submit" id="btn">Submit</button>
+      </div>
+
+      <p id="selectedMeal"></p>
+    </form>
+
+    <footer>
+      <div class="footer">
+        <div class="col1">
+          <img
+            src="image/Screen Shot 2024-09-12 at 3.49.23 PM.png"
+            alt=""
+            class="eazy"
+          />
+        </div>
+        <div class="col1">
+          <li>
+            <a href="#"><b>NAVIGATE</b></a>
+          </li>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+        </div>
+        <div class="col1">
+          <li>
+            <a href="#"><b> RESTAURANT</b></a>
+          </li>
+          <li><a href="#">Beverly Hills</a></li>
+          <li><a href="#">Toronto </a></li>
+          <li><a href="#">Paris </a></li>
+          <li><a href="#">FCT Abuja</a></li>
+        </div>
+        <div class="col1">
+          <li>
+            <a href="#"><b>CONNECT</b></a>
+          </li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Order</a></li>
+          <li><a href="#"> Social Media</a></li>
+          <li><a href="#"> Connect</a></li>
+        </div>
+        <div class="col2">
+          <li>
+            <a href="#"><b>EAZYFOOD</b></a>
+          </li>
+          <li><a href="#">Eazy House</a></li>
+          <li><a href="#">107a, Edmonton Road,</a></li>
+          <li><a href="#">Beverly Hills</a></li>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

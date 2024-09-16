@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  /* background-image: linear-gradient(45deg, black, orangered, black); */
+}
+.flex {
+  display: flex;
+}
+.none {
+  display: none;
+}
+.block {
+  display: block;
+}
+.show {
+  /* display: none; */
+}
+.food {
+  height: 100px;
+  /* width: 1000px; */
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  align-items: center;
+  padding-top: 300px;
+  gap: 200px;
+  justify-content: center;
+}
+header {
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  /* gap: 50%; */
+  justify-content: space-around;
+}
+header img {
+  height: 80px;
+  width: 200px;
+}
+.eazy {
+  height: 80px;
+  width: 200px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  /* height: 100px; */
+  /* background-image: linear-gradient(45deg, black, orangered, black); */
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  height: 500px;
+  justify-content: space-around;
+  background-image: url("../Food-Ordering-App/image/bistro.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  /* position: relative; */
+}
+
+.hero-content {
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  /* border-radius: 10px; */
+}
+
+.hero-content h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #ff6600; /* Orange color for the headers */
+}
+
+.hero-content p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.contact-info {
+  color: #ff6600;
+}
+.form-container {
+  /* background-image: linear-gradient(45deg, black, orangered, black); */
+  width: 100%;
+  /* height: 800px; */
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.our {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.special {
+  /* background-color: #E25110; */
+  /* height: 70px;
+  width: 70px; */
+  /* border-radius: 50px; */
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  padding-top: 50px;
+}
+
+.specs {
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.spec1 {
+  background-color: #e25110;
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  gap: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.special-content {
+  background-color: #fff;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.spec-text {
+  justify-content: center;
+  display: flex;
+  gap: 5px;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+.spec {
+  background-color: #e25110;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+
+.icon {
+  background-color: #fff;
+}
+
+.featured {
+  padding: 10px 80px;
+}
+
+.feat img {
+  height: 300px;
+  /* width: 300px; */
+}
+.order {
+  background-color: #ff6600;
+  padding: 10px 20px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+  background-image: linear-gradient(45deg, black, orangered, black);
+
+  height: 300px;
+  /* gap: 1px; */
+  padding: 0 50px;
+  border-top: #5a6868 solid 1px;
+}
+.col1 {
+  /* background-image: linear-gradient(to right, black, orangered); */
+  height: 300px;
+  /* align-items: center; */
+  padding: 0 40px;
+  line-height: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  list-style: none;
+}
+.col2 {
+  /* background-image: linear-gradient(to right, black, orangered); */
+
+  height: 300px;
+  /* align-items: center; */
+  padding: 0 40px;
+  line-height: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  list-style: none;
+  border-left: #5a6868 solid 1px;
+}
+.col1 a {
+  text-decoration: none;
+  list-style: none;
+  color: WHITE;
+}
+.col2 a {
+  text-decoration: none;
+  list-style: none;
+  color: WHITE;
+}
+.col1 img {
+  /* background-color: #dfe8e8; */
+  height: 70px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#selectedMeal {
+  background-color: #e25110;
+  color: white;
+  border-radius: 5px;
+}
